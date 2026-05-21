@@ -1,0 +1,23 @@
+{
+  "skill_name": "aipm-pro-review",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I worked in operations and managed push notifications, content slots, and user tasks. Package this for an AI Product Manager resume without exaggerating.",
+      "expected_output": "Reframes operations as product mechanisms, includes A/B variables, metrics, fact-preserving bullets, and claims to avoid.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "I did prompt engineering and Bad Case review but never trained a model. Help me explain SFT and LoRA experience safely in an AI PM interview.",
+      "expected_output": "Clearly separates actual experience from proposed workflow, uses product-side SFT standards, and avoids claiming direct model training.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "I come from marketing and want to transition into AI PM. Turn my market research and campaign analysis experience into AI PM interview stories.",
+      "expected_output": "Maps marketing capabilities to AI PM user insight, positioning, scenario discovery, GTM, and experiment thinking.",
+      "files": []
+    }
+  ]
+}
