@@ -295,6 +295,29 @@ For Ximalaya/心屿, fine-tuning package should include:
 
 When reviewing or packaging a project for AI PM interviews, first generate a hidden or explicit interviewer-question map. Use it to decide which hooks to plant in the story. Do not wait for the user to ask for mock questions if the task is project review, interview preparation, or storytelling.
 
+When generating big-tech-style questions, also generate project-specific mock answers by default unless the user explicitly asks for questions only. The answers must imitate the target company's questioning style, but stay grounded in the project.
+
+Mock-answer rules:
+
+1. Start with a direct conclusion, then expand with project evidence.
+2. Use the three-layer storytelling structure: project facts -> product judgment -> knowledge extension.
+3. Adjust the answer style to the company lens:
+   - Tencent / WXG: restraint, scenario fit, trust, privacy, product taste, "what not to build".
+   - ByteDance: metric tree, funnel, baseline, A/B, bad cases, latency / cost / quality tradeoff.
+   - Alibaba: business chain, supply-demand matching, transaction linkage, stakeholder collaboration, ROI.
+   - Xiaohongshu: real user scene, UGC trust, community ecology, subjective taste, commercialization restraint.
+4. Include one "interviewer hook" in answers where useful, so the interviewer is naturally invited to ask about Agent boundary, Memory, evaluation, observability, business funnel, or productionization.
+5. Do not invent unsupported metrics. If the answer needs data that the project does not have, say how to validate it instead.
+6. For each answer, prefer a structure like:
+
+```markdown
+**短答：** ...
+
+**展开：** ...
+
+**如果继续追问：** ...
+```
+
 ### WXG / Tencent Product Lens
 
 Tencent / WXG-style interviewers often test whether the candidate can think from restraint, scenario fit, trust, and product taste rather than just feature expansion.
